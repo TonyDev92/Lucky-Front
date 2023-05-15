@@ -1,0 +1,87 @@
+.padreW {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #01748e81;
+  &__hijo {
+    width: 80%;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &--title {
+      font-size: 25px;
+      margin-top: 32px;
+      font-weight: bold;
+      text-align: center;
+      color: #01748E;
+    }
+    &--info{
+      width: 80%;
+      margin-top: 24px;
+      text-align: center;
+      font-size: 16px;
+    }
+    &--img{
+      width: 236px;
+      margin-top: 32px;
+    }
+    &--h4{
+      text-align: center;
+      color: #01748E;
+      margin-top: 32px;
+    }
+    &--botones{
+      width: 100%;
+      margin-top: 17px;
+      border-top: 1px solid #BDD2D6;
+      &--1{
+        width: 50%;
+        border: none;
+        height: 52px;
+        background-color: white;
+        border-right: 1px solid #BDD2D6;
+        font-size: 16px;
+        color: #F44332;
+        border-bottom-left-radius: 12px;
+      }
+      &--2{
+        width: 50%;
+        border: none;
+        height: 52px;
+        background-color: white;
+        font-size: 16px;
+        border-bottom-right-radius: 12px;
+        color: #0E363D;
+      }
+    }
+    
+  }
+
+
+  
+
+ .warning-btn {
+    width: 50%;
+    padding: 15px 50px;
+    background-color: #fff;
+    color: rgb(244 67 50);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    
+  }
+
+
+    
+
+}

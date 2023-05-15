@@ -1,0 +1,26 @@
+.padreNot {
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.padreNot__h2 {
+  color: #01748e;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.padreNot__p {
+  margin-top: 10px;
+  width: 90%;
+  text-align: center;
+}
+.padreNot__small {
+  margin-top: 10px;
+  width: 90%;
+  text-align: center;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=NotificationItem.css.map */

@@ -1,0 +1,166 @@
+.mainPage{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    &__header{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+    &__menu{
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &--boton{
+            background-color: white;
+            border: none;
+            font-size: 16px;
+            width: 33%;
+            padding-bottom: 8px;
+        }
+        &--botonActive{
+            width: 33%;
+            background-color: white;
+            border: none;
+            font-size: 16px;
+            color: #01748E;
+            border-bottom: 3px solid #FA9C93;
+            padding-bottom: 8px;
+        }
+    }
+    &__comp{
+        width: 90%;
+        margin: 25px 0px;
+    }
+    &__button{
+        margin-top: 32px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        &--apa{
+            background-color: white;
+            border: none;
+            border: 2px solid #FA9C93;
+            border-radius: 4px;
+            width: 106px;
+            height: 35px;
+            color: #FA9C93;
+            font-size: 16px;
+        }
+        &--adop{
+            background-color: #FA9C93;
+            border: none;
+            border-radius: 4px;
+            width: 106px;
+            height: 35px;
+            color: white;
+            font-size: 16px;
+        }
+    }
+}
+
+.principal{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &__hijo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 16px;
+        &--linea{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &--clave{
+                font-size: 16px;
+                font-weight: 600;
+            }
+            &--valor{
+                font-size: 16px;
+                font-weight: 600;
+            }
+        }
+
+    }
+    &__personalidad{
+        margin: 32px 0px;
+        width: 100%;
+        &--titulo{
+            margin-bottom: 20px;
+            color: #01748E;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        &--dato{
+            background-color: #01748E;
+            font-size: 12px;
+            color: white;
+            padding: 6px;
+            border-radius: 10px;
+            text-align: center;
+        }
+    }
+    &__historia{
+        width: 100%;
+        border: 2px solid #01748e31;
+        border-radius: 4px;
+        &--titulo{
+            color: #01748E;
+            font-size: 16px;
+            margin: 7px;
+        }
+        &--datos{
+            font-size: 16px;
+            margin: 7px;
+        }
+    }
+    &__info{
+        margin-top: 32px;
+        width: 100%;
+        border: 2px solid #01748e31;
+        border-radius: 4px;
+        &--text{
+            margin: 7px;
+        }
+    }
+    &__caja{
+        width: 100%;
+        border: 2px solid #01748e31;
+        margin: 14px 0px;
+        border-radius: 4px;
+        &--titulo{
+            margin: 8px 8px 10px;
+            color: #01748E;
+            font-size: 16px;
+        }
+        &--dato{
+            margin: 8px 8px 15px;
+        }
+    }
+}
+
+.imagen{
+    width: 100%;
+    &__img{
+        width: 100%;
+    }
+}
+.IMG_possition_abosolute{
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    height: 25px;
+    width: 25px;
+}

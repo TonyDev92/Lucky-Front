@@ -1,0 +1,15 @@
+.padreS{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 41px;
+    &__logo{
+        width: 189px;
+    }
+    &__titulo{
+        width: 181px;
+    }
+}

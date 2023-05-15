@@ -1,0 +1,53 @@
+.div__apadrinar {
+  height: 100%;
+  margin: 0 auto;
+  padding: 45px;
+  background-color: #e3e2e2;
+  border-radius: 5px;
+}
+.div__apadrinar .title_apadrinar {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #f44336;
+}
+.div__apadrinar .subtitle_apadrinar {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.div__apadrinar .form_apadrinar {
+  display: flex;
+  flex-direction: column;
+}
+.div__apadrinar .label_apadrinar {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.div__apadrinar input[type=text],
+.div__apadrinar input[type=email],
+.div__apadrinar select,
+.div__apadrinar .textarea_apadrinar {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 15px;
+}
+.div__apadrinar .textarea_apadrinar {
+  resize: vertical;
+  min-height: 100px;
+}
+.div__apadrinar .btn_apadrinar[type=submit] {
+  background-color: #1abc9c;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.div__apadrinar .btn_apadrinar[type=submit]:hover {
+  background-color: #148f77;
+}/*# sourceMappingURL=ApadrinarPage.css.map */

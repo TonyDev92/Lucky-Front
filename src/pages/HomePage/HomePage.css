@@ -1,0 +1,57 @@
+.HPpadre {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.HPpadre__header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.HPpadre__header--saludo {
+  width: 80%;
+  text-align: left;
+  color: #01748E;
+  font-size: 25px;
+  margin-top: 124px;
+  margin-bottom: 32px;
+}
+.HPpadre__header--swiper {
+  width: 100%;
+}
+.HPpadre__linea {
+  width: 90%;
+  border-bottom: 2px solid #BDD2D6;
+  margin-top: 10px;
+  margin-bottom: 24px;
+}
+.HPpadre__bottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.HPpadre__bottom--nov {
+  width: 80%;
+  text-align: left;
+  color: #01748E;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+.HPpadre__main {
+  display: flex;
+  flex-direction: column;
+}
+.HPpadre__main--noticia {
+  background-color: #FA9C93;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  padding: 2px;
+}/*# sourceMappingURL=HomePage.css.map */

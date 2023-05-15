@@ -1,0 +1,60 @@
+.HPpadre{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &__header{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        &--saludo{
+            width: 80%;
+            text-align: left;
+            color: #01748E;
+            font-size: 25px;
+            margin-top: 124px;
+            margin-bottom: 32px;
+        }
+        &--swiper{
+            width: 100%;
+        }
+    }
+    &__linea{
+        width: 90%;
+        border-bottom: 2px solid #BDD2D6;
+        margin-top: 10px;
+        margin-bottom: 24px;
+    }
+    &__bottom{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        &--nov{
+            width: 80%;
+            text-align: left;
+            color: #01748E;
+            font-size: 16px;
+            margin-bottom: 24px;
+        }
+    }
+    &__main{
+        display: flex;
+        flex-direction: column;
+        &--noticia{
+            background-color: #FA9C93;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            text-align: center;
+            color: white;
+            padding: 2px;
+        }
+    }
+
+}
+
+

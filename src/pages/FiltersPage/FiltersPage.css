@@ -1,0 +1,115 @@
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main__header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 48px;
+  margin-bottom: 39px;
+}
+.main__header--vacio {
+  width: 30%;
+}
+.main__header--titulo {
+  width: 30%;
+  color: #01748E;
+  font-size: 20px;
+  text-align: center;
+}
+.main__header--x {
+  width: 30%;
+  text-align: center;
+}
+.main__header--x img {
+  width: 24px;
+}
+.main__body {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.main__body--form {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.main__body--form--label {
+  color: #01748E;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.main__body--form--select {
+  width: 260px;
+  border: none;
+  border-bottom: 2px solid #BDD2D6;
+  padding-bottom: 5px;
+}
+.main__body--especie--titulo {
+  color: #01748E;
+  font-size: 16px;
+  margin-bottom: 16px;
+  margin-top: 32px;
+}
+.main__body--especie--gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 21px;
+}
+.main__body--especie--gallery--button {
+  width: 67px;
+  height: 73px;
+  border: none;
+  border: 2px solid #BDD2D6;
+  border-radius: 8px;
+  background-color: white;
+}
+.main__body--especie--gallery--button--img {
+  width: 27px;
+}
+.main__body--especie--gallery--button--texto {
+  font-size: 12px;
+}
+.main__body--divbotones {
+  width: 100%;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.main__body--aplicar {
+  margin-top: 32px;
+  margin-bottom: 14px;
+  width: 106px;
+  height: 35px;
+  background-color: #FA9C93;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.main__body--aplicar--link {
+  text-decoration: none;
+  color: white;
+}
+.main__body--aplicar2 {
+  margin-top: 32px;
+  margin-bottom: 14px;
+  width: 106px;
+  height: 35px;
+  background-color: white;
+  border: none;
+  border: 2px solid #FA9C93;
+  border-radius: 4px;
+  color: #FA9C93;
+}/*# sourceMappingURL=FiltersPage.css.map */

@@ -1,0 +1,44 @@
+.main {
+  width: 100%;
+}
+
+.containerInput {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 43px;
+}
+
+.inputBuscar {
+  border-radius: 15px;
+  border: 1px solid rgb(189, 210, 214);
+  width: 256px;
+  height: 28px;
+  text-align: center;
+}
+
+.containerInputAdopt {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 43px;
+}
+
+.inputBuscarAdopt {
+  border-radius: 15px;
+  border: 1px solid rgb(189, 210, 214);
+  width: 339px;
+  height: 28px;
+  text-align: center;
+}
+
+.back {
+  width: 24px;
+  height: 24px;
+}/*# sourceMappingURL=Searcher.css.map */

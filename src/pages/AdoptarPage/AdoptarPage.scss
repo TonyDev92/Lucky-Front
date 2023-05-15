@@ -1,0 +1,97 @@
+.APpadre{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &__top{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        &--mascotas{
+            margin-top: 31px;
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            &--añadir{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &--h2{
+                    font-size: 16px;
+                    color: #01748E;
+                    margin-bottom: 5px;
+                }
+                &--img{
+                    width: 24px;
+                }
+            }
+            &--add{
+                font-size: 12px;
+            }
+        }
+    }
+    &__linea{
+        width: 90%;
+        border-bottom: 2px solid #BDD2D6;
+        margin-top: 10px;
+        margin-bottom: 24px;
+    }
+    &__bot{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        &--button{
+            width: 352px;
+            height: 50px;
+            border: 2px solid #BDD2D6;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 37px;
+            text-decoration: none;
+            &--p{
+                margin-left: 10px;
+                font-size: 16px;
+                color:rgb(18, 100, 163)
+            }
+            &--img{
+                margin-right: 10px;
+                width: 15px;
+            }
+        }
+        &--TG{
+            width: 90%;
+            &--t{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 30px;
+                &--h2{
+                    font-size: 16px;
+                    color: #01748E;
+                }
+                &--img{
+                    width: 24px;
+                }
+            }
+            &--gallery{
+                width: 100%;
+            }    
+        }
+    }
+}
+.noresultados {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    color: #01748E;
+  }

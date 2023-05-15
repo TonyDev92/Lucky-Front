@@ -1,0 +1,65 @@
+.padre {
+  width: 100%;
+  margin-bottom: 64px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.padre__hijo {
+  width: 90%;
+  border: 2px solid #BDD2D6;
+  border-radius: 8px;
+  margin-bottom: 13px;
+}
+.padre__hijo--top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0px;
+}
+.padre__hijo--top--h2 {
+  color: #01748E;
+  font-size: 16px;
+  margin-left: 21px;
+}
+.padre__hijo--top--p {
+  color: #F5A623;
+  font-size: 13px;
+  margin-right: 24px;
+}
+.padre__hijo--bot {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.padre__hijo--bot--img {
+  width: 108px;
+  height: 108px;
+  border-radius: 50%;
+  margin-bottom: 18px;
+  border: 3px solid #BDD2D6;
+}
+.padre__hijo--bot--clave {
+  list-style: none;
+  font-weight: 600;
+  font-size: 12px;
+}
+.padre__hijo--bot--valor {
+  list-style: none;
+  font-size: 12px;
+}
+
+.noresultados {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  color: #01748E;
+}
+
+.SearcherDiv {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 38px;
+}/*# sourceMappingURL=EstadoAdopcionPage.css.map */

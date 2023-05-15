@@ -1,0 +1,150 @@
+.ProfileHolePage{
+    width:100%;
+
+
+.NavBar{
+    margin-top: 40px;
+
+}
+.ProfContainer{
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 73px;
+    align-items: center;
+    gap: 16px;
+}
+.Img_Center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.ImageProf{
+    width: 71px;
+    height: 71px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.file-select {
+  position: relative;
+  display: inline-block;
+}
+.file-select::before {
+  background-color: #FA9C93;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  content: 'Seleccionar'; /* testo por defecto */
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+#src-file1::before {
+  content: 'Subir imagen';
+}
+
+.file-select input[type="file"] {
+  opacity: 0;
+  width: 100px;
+  height: 30px;
+  display: inline-block;
+}
+
+.ProfOptions{
+    margin-left: 10px;
+    align-content: center;
+    border-radius: 1px;
+    border-color: rgb(1 116 142) ;
+    display: flex;
+    width: 352px;
+    height: 50px;
+    align-items: center;
+}
+.opt_img{
+    height: 24px;
+    width: 24px;
+    margin-right: 9px;
+}
+.opt_text{
+    color: rgb(1 116 142);
+    size: 16px;
+    letter-spacing: normal;
+}
+.space{
+    height: 10px;
+}
+.OptContainer{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    //margin: 15px 10px 10px 5px;
+    border: 1px solid rgb(189 210 214);
+    border-radius: 4px;
+}
+.arrow{
+    width: 8px;
+    height: 14px;
+    align-items: end;
+    display: flex;
+    margin-right: 10px;
+    margin-left: 120px;
+}
+
+.arrow2{
+    width: 8px;
+    height: 14px;
+    align-items: end;
+    display: flex;
+    margin-right: 10px;
+    margin-left: 183px;
+}
+
+.arrow1{
+    width: 8px;
+    height: 14px;
+    align-items: end;
+    display: flex;
+    margin-right: 10px;
+    margin-left: 80px;
+}
+.arrow_apadrinar{
+    width: 8px;
+    height: 14px;
+    align-items: end;
+    display: flex;
+    margin-right: 10px;
+    margin-left: 190px;
+    justify-content: end;
+}
+
+.arrow_donation{
+    width: 8px;
+    height: 14px;
+    align-items: end;
+    display: flex;
+    margin-right: 10px;
+    margin-left: 223px;
+    justify-content: end;
+
+}
+.arrow_notification{
+    width: 8px;
+    height: 14px;
+    align-items: end;
+    display: flex;
+    margin-right: 10px;
+    margin-left: 163px;
+    justify-content: end;
+
+}
+
+a{
+    text-decoration: none;
+  }
+}

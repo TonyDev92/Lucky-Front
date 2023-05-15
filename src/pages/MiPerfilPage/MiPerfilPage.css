@@ -1,0 +1,33 @@
+.padreMI {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.padreMI__title {
+  margin-top: 40px;
+  color: #01748e;
+}
+.padreMI__hijo {
+  width: 80%;
+  margin-top: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid #bdd2d6;
+  border-radius: 4px;
+}
+.padreMI__hijo--img {
+  width: 200px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.padreMI__hijo--info {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.padreMI__hijo--info--p {
+  margin: 10px;
+}/*# sourceMappingURL=MiPerfilPage.css.map */
